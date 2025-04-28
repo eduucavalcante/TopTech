@@ -37,7 +37,7 @@ header::after {
 }
 
 header #logo {
-    display: none;
+    margin-right: 0.1em;
 }
 
 header h1 {
@@ -111,7 +111,32 @@ header li a:hover::after {
     position: relative;
 }
 
-.filtro {
+.home .arrow {
+    width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .arrow img {
+    position: relative;
+    margin-bottom: -23em;
+    animation: pulseOpacity 2s infinite;
+}
+
+@keyframes pulseOpacity {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.filter {
     position: absolute;
     top: 0;
     left: 0;
@@ -627,11 +652,8 @@ footer .aside .social {
 
 /* Responsividade */
 @media (max-width: 728px) {
-    header #logo {
-        display: block;
-    }
-
     header h1 {
-        display: none;
+        font-size: 1.5em;
+        margin-left: 0.1em;
     }
 }
