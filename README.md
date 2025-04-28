@@ -4,7 +4,7 @@
 
 ## 🌐 Acesse o site
 
-🔗 [toptechstore.netlify.app](https://toptechstore.netlify.app/)
+🔗 [toptechoficial.com.br](https://toptechoficial.com.br/)
 
 ## 📌 Sobre o projeto
 
