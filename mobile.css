@@ -1,0 +1,232 @@
+/* Estilos para responsividade */
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    header {
+        z-index: 5;
+        width: 90%;
+        flex-direction: row;
+        align-items: center;
+        padding: 1em 1.5em;
+    }
+  
+    header nav {
+        padding: 1em;
+        background: #171819;
+        width: 100%;
+        z-index: 10;
+        left: -1em;
+        top: -12em;
+        position: absolute;
+    }
+
+    header nav.active {
+        transition: 0.2 ease;
+        display: flex;
+        left: -1em;
+        top: 4.7em;
+        position: absolute;
+    }
+
+    header .menuDiv {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex: 1;
+    }    
+  
+    header ul {
+        flex-direction: column;
+        gap: 1.5em;
+        margin-top: 1em;
+    }
+  
+    /* HOME */
+    .home {
+        text-align: center;
+        padding: 0 1em;
+    }
+  
+    .home h2 {
+        font-size: 2em;
+    }
+  
+    .home p {
+        font-size: 1em;
+    }
+  
+    .home .whatsapp {
+        width: 90%;
+        margin: 1.5em auto;
+    }
+  
+    /* PRODUCTS */
+    .products .container {
+        padding: 0 1em;
+    }
+  
+    .card-wrapper {
+        min-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+  
+    .products .shippingInfo {
+        flex-direction: column;
+        gap: 1em;
+        margin-top: 2em;
+    }
+  
+    .shippingInfo .divInfo {
+        width: 90%;
+    }
+  
+    .products .catalogInfo {
+        padding: 2em 0;
+    }
+  
+    .products .catalog {
+        width: 90%;
+    }
+  
+    /* FAIXA IMAGEM */
+    .faixa-imagem {
+        height: 150px;
+        background-position: center center;
+    }
+  
+    /* SOBRE */
+    .about-icons {
+        margin: 2em;
+        grid-template-columns: 1fr;
+    }
+  
+    .about p#aboutText {
+        padding: 0 1em;
+        font-size: 1em;
+    }
+  
+    /* CONTATO */
+    .contact form {
+        width: 100%;
+        margin: 3em 0;
+    }
+  
+    form input, form textarea {
+        width: 90%;
+    }
+  
+    form button {
+        width: 90%;
+        margin-bottom: 3em;
+    }
+  
+    .contact .moreInfo {
+        flex-direction: column;
+        height: auto;
+        margin-bottom: -4em;
+    }
+  
+    .moreInfo div.info {
+        width: 100%;
+        margin-bottom: 4em;
+    }
+
+    .moreInfo .infoText {
+        margin-top: 2em;
+    }
+  
+    /* FOOTER */
+    footer {
+        flex-direction: column;
+        height: auto;
+        padding-top: 5em;
+        text-align: center;
+    }
+  
+    footer .footerMain, footer .aside {
+        width: 100%;
+        margin: 0em 0;
+         padding: 0;
+         border: none;
+         align-items: center;
+    }
+
+    footer .aside {
+        width: 100%;
+        margin: 2.5em 0;
+        padding: 0;
+        border: none;
+        align-items: center;
+    }
+  
+    .footerMain .footerNav ul {
+        text-align: center;
+    }
+  
+    .footerNav ul li {
+        text-align: center;
+    }
+  
+    .badges {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .social {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        z-index: 5;
+        width: 90%;
+        flex-direction: row;
+        align-items: center;
+        padding: 1em 1.5em;
+    }
+  
+    header nav {
+        padding: 1em;
+        background: #171819;
+        width: 100%;
+        z-index: 10;
+        left: -1em;
+        top: -12em;
+        position: absolute;
+    }
+
+    header nav.active {
+        transition: 0.2 ease;
+        display: flex;
+        left: -1em;
+        top: 4.7em;
+        position: absolute;
+    }
+
+    header .menuDiv {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex: 1;
+    }    
+  
+    header ul {
+        flex-direction: column;
+        gap: 1.5em;
+        margin-top: 1em;
+    }
+
+    footer {
+        height: auto;
+    }
+}
+
+@media (min-width: 499px) {
+    header {
+        width: 96%;
+    }
+}
