@@ -120,7 +120,7 @@ header li a:hover::after {
 
 .home .arrow img {
     position: relative;
-    margin-bottom: -23em;
+    margin-bottom: -21em;
     animation: pulseOpacity 2s infinite;
 }
 
