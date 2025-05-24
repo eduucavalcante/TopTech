@@ -22,7 +22,7 @@
     }
 
     header nav.active {
-        transition: 0.2 ease;
+        transition: 0.2s ease;
         display: flex;
         left: -1em;
         top: 4.6em;
